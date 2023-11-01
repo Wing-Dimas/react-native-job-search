@@ -7,7 +7,19 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "JSearch",
-    "slug": "JSearch"
+    "name": "Job Search",
+    "slug": "job-search",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4c166651-c96d-4979-b36d-41c7445e646c"
+      }
+    },
+    "owner": "silverlink",
+    "android": {
+      "package": "com.silverlink.jobsearch"
+    }
   }
 }
